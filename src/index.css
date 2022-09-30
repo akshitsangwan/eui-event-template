@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.footer-container {
+  padding:0;
+  background-color: #d3d3d3;
+  background-image: url("https://t3.ftcdn.net/jpg/03/41/64/54/240_F_341645493_Vm3nXGA8obJvDA8ohQJlBpJTSZsgkDm6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+ul {
+  position:relative;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 60px;
+}
+
+ul li a {
+
+  position: relative;
+  width:50px;
+  height:50px;
+  display:block;
+  text-align:center;
+  margin:0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration:none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: all .3s linear;
+}
+
+ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transform: scale(1.1);
+  text-decoration:none;
+}
+
+ul li a .fab {
+  width: 100%;
+  height:100%;
+  display:block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(50px - 12px);
+  font-size:24px;
+  color: #262626;
+  transition: .5s;
+}
+
+ul li:nth-child(1) a:hover .fab {
+  color: violet;
+}
+
+ul li:nth-child(2) a:hover .fab {
+  color: indigo;
+}
+
+ul li:nth-child(3) a:hover .fab {
+  color: blue;
+}
+
+ul li:nth-child(4) a:hover .fab {
+  color: green;
+}
+
+ul li:nth-child(5) a:hover .fab {
+  color: yellow;
+}
+
+ul li:nth-child(6) a:hover .fab {
+  color: orange;
+}
+
+ul li:nth-child(7) a:hover .fab {
+  color: red;
+}
